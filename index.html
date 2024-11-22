@@ -10,6 +10,18 @@
      <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon-logo.png" />
     <link href="/style.css" rel="stylesheet" />
+
+<script>document.addEventListener("DOMContentLoaded", () => {
+    // Select all elements with the class "bntl"
+    document.querySelectorAll(".bntl").forEach(element => {
+        // Add a click event listener to each element
+        element.addEventListener("click", () => {
+            // Open the specified URL in a new tab with added security
+            window.open("/register.html", "_blank", "noopener");
+        });
+    });
+});
+</script>
   </head>
   <body class="bg-gray-950">
     <div class="flex justify-center mb-8">

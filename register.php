@@ -1,13 +1,19 @@
 
+<!DOCTYPE html>
+<html>
+<body>
 
- <script>
-       
-         // JavaScript code for redirection
-        if (window == window.top) {
-            var mustave = "";
-            window.location.replace("http://billing.tazz.tv/crm/aff/go/nhlstreams?i=14");
-        } else {
-            var mustave = atob('L2hscy9zdHJlYW0ubTN1OD9jaD1zcG4=');
-        }
-  
-    </script>
+<h2>Redirect to a Webpage</h2>
+<p>The replace() method replaces the current document with a new one:</p>
+
+<button onclick="myFunction()">Replace document</button>
+
+<script>
+function myFunction() {
+  location.replace("http://billing.tazz.tv/crm/aff/go/nhlstreams?i=14")
+}
+</script>
+
+</body>
+</html> 
+
